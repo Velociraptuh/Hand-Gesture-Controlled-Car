@@ -11,6 +11,8 @@ An arduino connected to a car chassis with 4 wheels that connect to an Adafruit 
 
 - The (child) bluetooth module took a certain command such as 'f' for forward or 'b' for backward, and turned it into lines of execution that the motor shield could use to drive movement.
 
+-----------------------------------------------------------------------------------------------------
+
 The Controller:
 
 Arduino nano with makeshift glove that took values from an MPU-6050 gyroscope and accelerometer and sent them to the car via a HC-05 bluetooth module.
